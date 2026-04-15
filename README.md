@@ -12,7 +12,7 @@ A biblioteca tem as seguintes funcionalidades:
 
 Para pleno funcionamento é necessario que o método `update()` seja chamado repetidamente dentro do `loop()`.
 
-## Authors
+## Autores
 
 - [@marcus56480](https://github.com/Marcus56480)
 ## Estrutura da biblioteca 
