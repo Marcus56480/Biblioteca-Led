@@ -1,7 +1,30 @@
-A presente biblioteca é uma biblioteca simples e eficiente desenvolvida para facilitar o controle de Leds em projetos eletrônicos.
+# Biblioteca para controle de Led
 
-A biblioteca oferece funcionalidades essenciais como ligar e desligar LEDs, alternar estados, piscar, piscar com frequencia e piscar com frequencia e tempo.
+A presente biblioteca é uma forma simples de controle de LEDs realizada de forma não bloqueante para Arduino e ESP32.
 
-Por fim, a biblioteca é um projeto que busca sempre se manter atualizado e com novas funcionalidades.
+A biblioteca tem as seguintes funcionalidades:
+
+- Ligar e desligar o LED
+- Ligar por um tempo determinado 
+- Alternar estado 
+- Piscar continuamente
+- Piscar uma quantidade definida de vezes 
+
+Para pleno funcionamento é necessario que o método `update()` seja chamado repetidamente dentro do `loop()`.
+
+## Authors
+
+- [@marcus56480](https://github.com/Marcus56480)
+## Estrutura da biblioteca 
+
+`````text
+LED/
+├── library.json
+├── README.md
+├── LICENSE
+├── src/
+│   ├── LED.h
+│   └── LED.cpp
+└── examples/
 
 
